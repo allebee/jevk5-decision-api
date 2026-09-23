@@ -1,0 +1,20 @@
+{
+  "model": "alibiserikbay/JevK5",
+  "state": {
+    "ticket": "I was charged twice this month. Please refund the duplicate."
+  },
+  "questions": {
+    "team": {
+      "type": "choice",
+      "instructions": "Which team should handle the ticket?",
+      "criteria": {
+        "billing": "Charges and refunds",
+        "technical": "Bugs and outages"
+      }
+    },
+    "refund": {
+      "type": "noul",
+      "instructions": "Does the customer request a refund?"
+    }
+  }
+}
